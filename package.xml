@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sitewards_InstantSearchResult</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension provides functionality of redirecting to detailpage if there is only 1 product returned from the search</summary>
+    <description>Installation instruction&#xD;
+------------------------&#xD;
+&#xD;
+1. Install and activate the extension</description>
+    <notes>Released new extension.</notes>
+    <authors><author><name>Sitewards Magento Team</name><user>sitewards</user><email>magento@sitewards.com</email></author></authors>
+    <date>2013-09-24</date>
+    <time>11:31:51</time>
+    <contents><target name="magecommunity"><dir name="Sitewards"><dir name="InstantSearchResult"><dir name="Helper"><file name="Data.php" hash="68a8093f47b7f1853f75c78ff1bf8270"/></dir><dir name="Model"><file name="Observer.php" hash="39e6ceb4ec54b6317ff761c5146a4448"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6638c2c5eda505cae95eb1309bb4feb8"/><file name="config.xml" hash="7ab8f85e10f1a52b44fa455f49bd126b"/><file name="system.xml" hash="db557429d97741a67cdd9967a9108290"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sitewards_InstantSearchResult.xml" hash="34eb0addc62509eaeb585dd9c78897ac"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="Sitewards_InstantSearchResult.csv" hash="197191ebf7610a42f70f80197cab2c25"/></dir><dir name="en_US"><file name="Sitewards_InstantSearchResult.csv" hash="4751b8e81fd80b8d334594acadbd7ae8"/></dir><dir name="ru_RU"><file name="Sitewards_InstantSearchResult.csv" hash="6f4e5ba2a6d7d11d019d8f9293aae068"/></dir><dir name="uk_UA"><file name="Sitewards_InstantSearchResult.csv" hash="1d05c82f8f33dd1671abdd880c59289d"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
