@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This extension provides functionality of redirecting to detailpage if there is only 1 product returned from the search
